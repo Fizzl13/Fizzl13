@@ -13,6 +13,8 @@ My background is in **Customer Success and Sales**, and I’m developing my skil
 
 ### ⚡ x402 agent services: pay-per-call APIs for AI agents
 
+![x402](https://img.shields.io/badge/x402-v2-0052FF?style=flat-square) ![Base](https://img.shields.io/badge/Base-USDC-0052FF?style=flat-square&logo=coinbase&logoColor=white) ![Solana](https://img.shields.io/badge/Solana-USDC-9945FF?style=flat-square&logo=solana&logoColor=white) ![CDP Bazaar](https://img.shields.io/badge/CDP_Bazaar-listed-2ea44f?style=flat-square) ![MCP](https://img.shields.io/badge/MCP-server-555555?style=flat-square) ![ElizaOS](https://img.shields.io/badge/ElizaOS-plugin-f97316?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
+
 A family of live APIs that AI agents pay for per call in USDC over the [x402](https://x402.org) protocol (Base and Solana). No accounts, no API keys. All of them are listed in the Coinbase CDP Bazaar, so agents can find them on their own.
 
 | Project | What it does | Price |
