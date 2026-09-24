@@ -11,6 +11,26 @@ My background is in **Customer Success and Sales**, and I’m developing my skil
 
 ## 🚀 Featured Projects
 
+### ⚡ x402 agent services: pay-per-call APIs for AI agents
+
+![x402](https://img.shields.io/badge/x402-v2-0052FF?style=flat-square) ![Base](https://img.shields.io/badge/Base-USDC-0052FF?style=flat-square&logo=coinbase&logoColor=white) ![Solana](https://img.shields.io/badge/Solana-USDC-9945FF?style=flat-square&logo=solana&logoColor=white) ![CDP Bazaar](https://img.shields.io/badge/CDP_Bazaar-listed-2ea44f?style=flat-square) ![MCP](https://img.shields.io/badge/MCP-server-555555?style=flat-square) ![ElizaOS](https://img.shields.io/badge/ElizaOS-plugin-f97316?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
+
+A family of live APIs that AI agents pay for per call in USDC over the [x402](https://x402.org) protocol (Base and Solana). No accounts, no API keys. All of them are listed in the Coinbase CDP Bazaar, so agents can find them on their own.
+
+| Project | What it does | Price |
+|---------|--------------|-------|
+| 🩺 [x402 Doctor](https://x402-doctor.onrender.com) | Paste an x402 endpoint and see exactly which part of its payment flow is broken. The paid **fix** returns the code to paste for your stack. Includes a daily Trust Index of the whole Bazaar. | free on the web · $0.01 diagnose · $0.05 fix |
+| 🛡️ [presign-guard](https://presign-guard.onrender.com) | Pre-sign risk check: before an agent signs a transaction, permit or x402 payment, it gets a green / orange / red verdict with reasons. | $0.01 · $0.03 with explanation |
+| 📄 [PlainText](https://smartcontractexplainer.onrender.com) | Looks up a wallet's token/NFT approvals and explains the risk in plain language (SAFE / CAUTION / RISK). | $0.10 |
+| ☁️ [Ichimoku Signal](https://ichimoku-signal.onrender.com) | Live Ichimoku Cloud signal for the top 100 crypto pairs: bullish / bearish / neutral, cloud position and all line values. | $0.02 |
+| 🔌 [plugin-fizzl](https://github.com/Fizzl13/plugin-fizzl) | ElizaOS plugin that lets any Eliza agent call all of the above and pay on its own. | free |
+
+**Focus:** AI agents · x402 payments · Web3 security · Node.js · MCP
+
+Source: [x402-doctor](https://github.com/Fizzl13/x402-doctor) · [presign-guard](https://github.com/Fizzl13/presign-guard) · [PlainText](https://github.com/Fizzl13/SmartContractExplainer) · [plugin-fizzl](https://github.com/Fizzl13/plugin-fizzl)
+
+---
+
 ### 🤖 AI Customer Service Automation
 
 An AI-powered customer service assistant that transforms incoming customer messages into professional, ready-to-send Dutch responses.
@@ -48,6 +68,7 @@ I’m particularly interested in:
 - 🌐 Web applications
 - 📊 AI + data
 - 🚀 Practical AI solutions for businesses
+- ⚡ Agent payments (x402) and on-chain safety
 
 ---
 
@@ -55,7 +76,7 @@ I’m particularly interested in:
 
 **Currently working with / learning:**
 
-`JavaScript` `HTML` `CSS` `AI APIs` `LLMs` `GitHub` `Web Development`
+`JavaScript` `Node.js` `HTML` `CSS` `AI APIs` `LLMs` `x402` `MCP` `ElizaOS` `Base` `Solana` `GitHub Actions` `Web Development`
 
 ---
 
