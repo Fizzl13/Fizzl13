@@ -31,20 +31,15 @@ Source: [x402-doctor](https://github.com/Fizzl13/x402-doctor) · [presign-guard]
 
 ---
 
-### 🤖 AI Customer Service Automation
+### 🤖 AI workflows with a human in control
 
-An AI-powered customer service assistant that transforms incoming customer messages into professional, ready-to-send Dutch responses.
+Three small public demos, built with Claude, each with a fictional company or only public data:
 
-**What it does:**
-- Select a publication and case type
-- Enter the customer's message
-- Generate an AI-assisted response
-- Review and edit the response
-- Copy the final answer for use in the existing workflow
+- **[ReplyDesk](https://github.com/Fizzl13/replydesk)**: turns a customer message into a draft reply that follows the company's policies; a person edits and sends it. [Live demo →](https://replydesk-kvu8.onrender.com/)
+- **[Process Agent](https://github.com/Fizzl13/process-agent)**: AI analyses a customer case, and fixed rules decide what runs, what needs approval and what stays blocked. [Live demo →](https://process-agent.onrender.com/)
+- **[Digital Twin](https://github.com/Fizzl13/digital-twin)**: ask about my work; it answers only from my public CV and says which part it used. [Live demo →](https://digital-twin-ztpp.onrender.com/)
 
 **Focus:** AI applications · Customer Service · Automation · LLMs
-
-[View project →](https://github.com/Fizzl13/AI-CustomerServiceEmailApp)
 
 ---
 
