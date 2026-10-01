@@ -17,7 +17,7 @@ Customer Success specialist with 4+ years of experience in retention, account gr
 Public demos built with Claude, each with a fictional company or only public data:
 
 - **[Digital Twin](https://github.com/Fizzl13/digital-twin)**: ask about my work; it answers only from my CV and says which part it used. [Try it →](https://fizzl.eu/#digital-twin)
-- **ReplyDesk**: turns a customer message into a draft reply that follows the company's policies; a person reviews and sends it. [Live demo →](https://replydesk-kvu8.onrender.com/)
+- **[ReplyDesk](https://github.com/Fizzl13/replydesk)**: turns a customer message into a draft reply that follows the company's policies; a person reviews and sends it. [Live demo →](https://replydesk-kvu8.onrender.com/)
 - **[Process Agent](https://github.com/Fizzl13/process-agent)**: AI analyses a customer case, and fixed rules decide what runs, what needs approval and what stays blocked until a person says yes. [Live demo →](https://process-agent.onrender.com/)
 
 ---
