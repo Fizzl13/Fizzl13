@@ -2,7 +2,7 @@
 
 ### Customer Success • Sales • AI agents & tools
 
-Customer Success specialist with 4+ years of experience in retention, account growth and consultative selling. Next to that I build and run AI tools in production: four live services that AI agents discover and pay for per call, with monitoring, tests and signed, auditable results.
+Customer Success specialist with 4+ years of experience in retention, account growth and consultative selling. Next to that I build and run AI tools in production: live services that AI agents discover and pay for per call, an exam that tests whether an agent can be trusted with a wallet, and open-source packages for agent developers, with monitoring, tests and signed, auditable results.
 
 **Looking for:** a customer-facing role at a company that builds AI agents or voice AI (solutions, customer success or partnerships), in Amsterdam or remote.
 
@@ -24,20 +24,27 @@ Public demos built with Claude, each with a fictional company or only public dat
 
 ## ⚡ x402 services: pay-per-call APIs for AI agents
 
-![x402](https://img.shields.io/badge/x402-v2-0052FF?style=flat-square) ![Base](https://img.shields.io/badge/Base-USDC-0052FF?style=flat-square&logo=coinbase&logoColor=white) ![Solana](https://img.shields.io/badge/Solana-USDC-9945FF?style=flat-square&logo=solana&logoColor=white) ![CDP Bazaar](https://img.shields.io/badge/CDP_Bazaar-listed-2ea44f?style=flat-square) ![MCP](https://img.shields.io/badge/MCP-server-555555?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
+![x402](https://img.shields.io/badge/x402-v2-0052FF?style=flat-square) ![Base](https://img.shields.io/badge/Base-USDC-0052FF?style=flat-square&logo=coinbase&logoColor=white) ![Solana](https://img.shields.io/badge/Solana-USDC-9945FF?style=flat-square&logo=solana&logoColor=white) ![XRP Ledger](https://img.shields.io/badge/XRP_Ledger-RLUSD-23292F?style=flat-square) ![CDP Bazaar](https://img.shields.io/badge/CDP_Bazaar-listed-2ea44f?style=flat-square) ![MCP](https://img.shields.io/badge/MCP-server-555555?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 
-Live APIs that AI agents pay for per call in USDC over the [x402](https://x402.org) protocol, on Base and Solana. No accounts, no API keys. Each has an MCP server and is listed in the Coinbase CDP Bazaar.
+Live APIs that AI agents pay for per call in USDC over the [x402](https://x402.org) protocol, on Base, Solana and several other networks. No accounts, no API keys for the paid APIs. They have MCP servers and are listed in the Coinbase CDP Bazaar.
 
 | Project | What it does | Price |
 |---------|--------------|-------|
 | 🛡️ [presign-guard](https://presign-guard.fizzl.eu) | A green / orange / red verdict before an agent or wallet signs a transaction, approval or signature, with reason codes and a signed receipt. Also token verdicts and wallet approval audits. | from $0.01 |
 | 🩺 [x402 Doctor](https://x402-doctor.fizzl.eu) | Checks a paid API the way a paying agent would, with a fix for every problem. A $0.001 preflight tells an agent go / caution / no_go before it pays. | free on the web · from $0.001 |
-| 📄 [PlainText](https://plaintext.fizzl.eu) | presign-guard's verdict on wallet approvals, explained in plain language for people. 3 free checks a day. | free · $0.03–$0.04 |
+| 🛒 [Fizzl Buy](https://buy.fizzl.eu) | An agent says what it needs; Fizzl Buy picks a paid API, fills in the call, buys it and checks the answer. | free pick · $0.02 |
 | ☁️ [Ichimoku Signal](https://ichimoku-signal.fizzl.eu) | Ichimoku Cloud signals, price levels and a ranked scan of 148 coins, plus a public paper test of a trend-following rule. | from $0.02 |
+| 🎓 [Agent Safety exam](https://exam.fizzl.eu) | 22 tasks at simulated sellers, honest and cheating, that test whether an AI agent can be trusted with a wallet. Admitted agents get a signed result and a badge. | first exam free · $0.10 |
+| 👛 [Agent Wallet](https://wallet.fizzl.eu) | A wallet for AI agents with spending limits and owner approvals, and a connector for ChatGPT, Claude and Grok. | free for one agent · Pro $5/month |
 
-**For agent developers:** [x402-safe-fetch](https://www.npmjs.com/package/x402-safe-fetch) (checks an endpoint before paying, never above your budget) and [presign-guard-wallet](https://www.npmjs.com/package/presign-guard-wallet) (pre-sign checks for wallets) on npm, and [plugin-fizzl](https://github.com/Fizzl13/plugin-fizzl) for ElizaOS agents.
+**For agent developers:**
+- [x402-safe-fetch](https://www.npmjs.com/package/x402-safe-fetch): checks an endpoint before paying, never above your budget (per call or per task), and never pays twice for nothing
+- [fizzl-langchain](https://www.npmjs.com/package/fizzl-langchain) and [fizzl](https://pypi.org/project/fizzl/) (Python): the checks as LangChain tools, listed in LangChain's integrations
+- [presign-guard-ai-sdk](https://www.npmjs.com/package/presign-guard-ai-sdk): the same tools for the Vercel AI SDK
+- [presign-guard-wallet](https://www.npmjs.com/package/presign-guard-wallet): pre-sign checks for wallets
+- [plugin-fizzl](https://github.com/Fizzl13/plugin-fizzl): for ElizaOS agents
 
-Source: [presign-guard](https://github.com/Fizzl13/presign-guard) · [x402-doctor](https://github.com/Fizzl13/x402-doctor) · [PlainText](https://github.com/Fizzl13/SmartContractExplainer) · [x402-examples](https://github.com/Fizzl13/x402-examples)
+Source: [presign-guard](https://github.com/Fizzl13/presign-guard) · [x402-doctor](https://github.com/Fizzl13/x402-doctor) · [x402-examples](https://github.com/Fizzl13/x402-examples) · Research: [AI agents in the x402 exam](https://fizzl.eu/research/ai-agents-x402-exam-november-2026/)
 
 ---
 
@@ -47,11 +54,11 @@ Source: [presign-guard](https://github.com/Fizzl13/presign-guard) · [x402-docto
 
 **AI & agents:** Claude API and Claude Code, prompt design, evaluation, MCP servers, guardrails where the model explains but never decides
 
-**Building:** `Node.js` `Express` `OpenAPI` `GitHub Actions` `Render` `Playwright` `HTML/CSS/JS` · basic `Python`
+**Building:** `Node.js` `Express` `OpenAPI` `GitHub Actions` `Render` `Playwright` `HTML/CSS/JS` · `Python` (a published PyPI package)
 
 **Security & reliability:** secrets management, signed receipts, health checks, monitoring, debugging from logs
 
-**Web3 & payments:** `x402` `USDC` `Base` `Solana` `ERC-20 approvals` `EIP-712` `Permit2`
+**Web3 & payments:** `x402` `USDC` `Base` `Solana` `XRP Ledger` `Stellar` `Algorand` `ERC-20 approvals` `EIP-712` `EIP-3009` `Permit2`
 
 **Languages:** Dutch (native) · English (C1) · German (B2) · French (B1)
 
