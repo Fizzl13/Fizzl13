@@ -1,10 +1,14 @@
 # Hi, I'm Frits 👋
 
-### Customer Success • Sales • AI agents & tools
+### AI Engineer • AI agents & payments in production • Customer success background
 
-Customer Success specialist with 4+ years of experience in retention, account growth and consultative selling. Next to that I build and run AI tools in production: live services that AI agents discover and pay for per call, an exam that tests whether an agent can be trusted with a wallet, and open-source packages for agent developers, with monitoring, tests and signed, auditable results.
+I build AI tools that run in production, and I've spent years on the other side of the table, helping customers get what they actually need. That mix is what I bring: hands-on AI engineering, and the habit of asking what problem we're really solving.
 
-**Looking for:** a customer-facing role at a company that builds AI agents or voice AI (solutions, customer success or partnerships), in Amsterdam or remote.
+In 2026 I built and run live services that AI agents find and pay for on their own, per call, over the open x402 standard on eleven payment networks; an exam that tests whether an agent can be trusted with a wallet; an agent wallet with spending limits and approval on your phone; and open-source packages for agent developers.
+
+**How I build:** version control and review on every change, automated tests and CI/CD, error tracking, scheduled health checks and a weekly dependency audit. Safety first: the model explains, hard rules decide. Built with Claude and Claude Code; I set the architecture and the safety rules, review every change and decide what ships.
+
+**Looking for:** an AI engineering, solutions or implementation role where I can build AI that works for real people, in Amsterdam or remote. Also open to freelance work on agent tooling and x402 integrations.
 
 💬 **Quickest way to get to know me:** ask my [Digital Twin](https://fizzl.eu/#digital-twin), an AI version of my CV that answers in English or Dutch (by typing or by voice) and only from what I wrote myself.
 
@@ -26,7 +30,7 @@ Public demos built with Claude, each with a fictional company or only public dat
 
 ![x402](https://img.shields.io/badge/x402-v2-0052FF?style=flat-square) ![Base](https://img.shields.io/badge/Base-USDC-0052FF?style=flat-square&logo=coinbase&logoColor=white) ![Solana](https://img.shields.io/badge/Solana-USDC-9945FF?style=flat-square&logo=solana&logoColor=white) ![XRP Ledger](https://img.shields.io/badge/XRP_Ledger-RLUSD-23292F?style=flat-square) ![CDP Bazaar](https://img.shields.io/badge/CDP_Bazaar-listed-2ea44f?style=flat-square) ![MCP](https://img.shields.io/badge/MCP-server-555555?style=flat-square) ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 
-Live APIs that AI agents pay for per call in USDC over the [x402](https://x402.org) protocol, on Base, Solana and several other networks. No accounts, no API keys for the paid APIs. They have MCP servers and are listed in the Coinbase CDP Bazaar.
+Live APIs that AI agents pay for per call in USDC over the [x402](https://x402.org) protocol, on eleven networks, among them Base, Solana, the XRP Ledger, Algorand and Stellar. No accounts, no API keys for the paid APIs. They have MCP servers and are listed in the Coinbase CDP Bazaar.
 
 | Project | What it does | Price |
 |---------|--------------|-------|
@@ -34,7 +38,7 @@ Live APIs that AI agents pay for per call in USDC over the [x402](https://x402.o
 | 🩺 [x402 Doctor](https://x402-doctor.fizzl.eu) | Checks a paid API the way a paying agent would, with a fix for every problem. A $0.001 preflight tells an agent go / caution / no_go before it pays. | free on the web · from $0.001 |
 | 🛒 [Fizzl Buy](https://buy.fizzl.eu) | An agent says what it needs; Fizzl Buy picks a paid API, fills in the call, buys it and checks the answer. | free pick · $0.02 |
 | ☁️ [Ichimoku Signal](https://ichimoku-signal.fizzl.eu) | Ichimoku Cloud signals, price levels and a ranked scan of 148 coins, plus a public paper test of a trend-following rule. | from $0.02 |
-| 🎓 [Agent Safety exam](https://exam.fizzl.eu) | 22 tasks at simulated sellers, honest and cheating, that test whether an AI agent can be trusted with a wallet. Admitted agents get a signed result and a badge. | first exam free · $0.10 |
+| 🎓 [Agent Safety exam](https://exam.fizzl.eu) | 23 simulated sellers, most of them cheating, that test whether an AI agent can be trusted with a wallet. Admitted agents get a signed result and a badge. | first exam free · $0.10 |
 | 👛 [Agent Wallet](https://wallet.fizzl.eu) | A wallet for AI agents with spending limits and owner approvals, and a connector for ChatGPT, Claude and Grok. | free for one agent · Pro $5/month |
 
 **For agent developers:**
@@ -50,9 +54,9 @@ Source: [presign-guard](https://github.com/Fizzl13/presign-guard) · [x402-docto
 
 ## 🛠️ Skills
 
-**Customer success & sales:** retention, needs analysis, consultative selling, upsell / cross-sell, Salesforce
+**AI & agents:** Claude API and Claude Code, MCP servers, LLM evaluation, RAG, prompt design, guardrails where the model explains but never decides
 
-**AI & agents:** Claude API and Claude Code, prompt design, evaluation, MCP servers, guardrails where the model explains but never decides
+**Customer success & sales:** retention, needs analysis, consultative selling, upsell / cross-sell, Salesforce
 
 **Building:** `Node.js` `Express` `OpenAPI` `GitHub Actions` `Render` `Playwright` `HTML/CSS/JS` · `Python` (a published PyPI package)
 
